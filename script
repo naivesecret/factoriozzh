@@ -12,3 +12,4 @@ mv ~/server-settings.json data/
 mv ~/server-adminlist.json .
 mkdir saves
 mv ~/zzh.zip saves/
+./bin/x64/factorio --start-server ./saves/zzh.zip
