@@ -1,0 +1,14 @@
+cp server-adminlist.json ~
+cp cp saves/zzh.zip ~
+cp data/server-settings.json ~
+cd ..
+rm -rf factorio
+cd ~
+wget https://www.factorio.com/get-download/latest/headless/linux64
+tar -xvf linux64
+mv factorio /opt/
+cd /opt/factorio
+mv ~/server-settings.json data/
+mv ~/server-adminlist.json .
+mkdir saves
+mv ~/zzh.zip saves/
