@@ -1,9 +1,10 @@
 cp server-adminlist.json ~
-cp cp saves/zzh.zip ~
+cp saves/zzh.zip ~
 cp data/server-settings.json ~
 cd ..
 rm -rf factorio
 cd ~
+rm linux64
 wget https://www.factorio.com/get-download/latest/headless/linux64
 tar -xvf linux64
 mv factorio /opt/
