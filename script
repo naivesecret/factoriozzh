@@ -1,16 +1,16 @@
 cp server-adminlist.json ~
-cp saves/zzh.zip ~
+cp saves/ali.zip ~
 cp data/server-settings.json ~
 cd ..
 rm -rf factorio
 cd ~
 rm linux64
-wget https://www.factorio.com/get-download/latest/headless/linux64
+wget https://factorio.com/get-download/latest/headless/linux64
 tar -xvf linux64
 mv factorio /opt/
 cd /opt/factorio
 mv ~/server-settings.json data/
 mv ~/server-adminlist.json .
 mkdir saves
-mv ~/zzh.zip saves/
-./bin/x64/factorio --start-server ./saves/zzh.zip
+mv ~/ali.zip saves/
+./bin/x64/factorio --start-server ./saves/ali.zip
