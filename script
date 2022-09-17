@@ -13,4 +13,4 @@ mv ~/server-settings.json data/
 mv ~/server-adminlist.json .
 mkdir saves
 mv ~/ali.zip saves/
-./bin/x64/factorio --start-server ./saves/ali.zip
+./bin/x64/factorio --use-server-whitelist --server-whitelist ./data/server-whitelist.json --server-settings ./data/server-settings.json --start-server ./saves/keke.zip
