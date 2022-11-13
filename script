@@ -7,8 +7,8 @@ cp /opt/factorio/data/server-whitelist.json ~
 mv /opt/factorio/saves ~
 sudo rm -rf /opt/factorio
 tar -xvf ~/linux64
-mv ~/factorio /opt/
-mv ~/server-adminlist.json /opt/factorio/
-mv ~/server-settings.json /opt/factorio/data/
-mv ~/server-whitelist.json /opt/factorio/data/
+mv ~/server-adminlist.json ~/factorio/
+mv ~/server-settings.json ~/factorio/data/
+mv ~/server-whitelist.json ~/factorio/data/
+sudo mv ~/factorio /opt/
 /opt/factorio/bin/x64/factorio --use-server-whitelist --server-whitelist /opt/factorio/data/server-whitelist.json --server-settings /opt/factorio/data/server-settings.json --start-server /opt/factorio/saves/zc.zip --port 34197
